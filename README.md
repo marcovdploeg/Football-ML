@@ -5,7 +5,7 @@ Initially we predict the scores themselves, then also only who wins the game.
 The accuracy of who wins based on predicted scores is about 60%, 
 while predicting the winner directly gives an accuracy of about 68%.
 
-Applied methods in this script are: machine learning using xgboost, preprocessing (one-hot encoding and feature engineering), dataframe slicing.
+Applied methods in this script are: machine learning using xgboost, preprocessing (one-hot encoding and feature engineering), dataframe slicing, hyperparameter optimisation with GridSearchCV.
 
 The used dataset can be found at: 
 https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017
